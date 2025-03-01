@@ -163,7 +163,7 @@ def predict_route():
     return jsonify(prediction)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port="5100",debug=True)
 
 
 
